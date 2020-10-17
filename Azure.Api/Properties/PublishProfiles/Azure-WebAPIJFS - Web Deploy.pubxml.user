@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA/7kJWBI3bU+2IkZ09fk8MgAAAAACAAAAAAADZgAAwAAAABAAAADwpAcSlFJMfquPTJJvpyW7AAAAAASAAACgAAAAEAAAABQrVXgCW1Fqu4t3MGDgcTuAAAAA1IvKHQzgnS/daC4j+RjBfngEOu9A7ZFf9gAGdPaJ4ydo7uldvPNo5NCUaDX8a/uW7Z0qJC8RwCQQsEx8UPRnt80i1VUrPev+wwJP1YPjxAvFcBR4hODINnb/qjsJvm5rNoOX2Up+xB9yqzw7x7O+hH3akmhkKws5anukVpdAVoMUAAAAZzzZtwtb8enKf/g7OpfflmiuOcY=</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="conBD">
+      <Value>Server=tcp:colegiojfs.database.windows.net,1433%3bInitial Catalog=Colegio%3bPersist Security Info=False%3bUser ID=benjohs%3bPassword=Alebri123%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

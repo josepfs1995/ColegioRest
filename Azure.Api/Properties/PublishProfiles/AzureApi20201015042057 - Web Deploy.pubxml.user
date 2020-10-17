@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA/7kJWBI3bU+2IkZ09fk8MgAAAAACAAAAAAADZgAAwAAAABAAAACkJ3Ks7o87n+3bQTgz7IJiAAAAAASAAACgAAAAEAAAAP+fPve/PMgMJSH3YfMo9U6AAAAAuKE3zbZ/bVtSK2nCKlZOgloKysrAmveSiuZ5Oz69+iYGdLq0q5bm2ag5sdtg5v0pvFDUXQnoP2K1H0wG9Ni9yRNKIhsurPBvoRlGKZMw0QaQPVSqmmXo9fveSUYK4RW1tr0awcWMTPxu3t/BmhTyzToS3g/8Dl9dgfSleZ7C3jYUAAAAcxwoTyhhFGXLkPW56EgQxYyyigc=</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="Azure.Api.Core.ColegioContext">
+      <Value>Server=tcp:colegiojfs.database.windows.net,1433%3bInitial Catalog=Colegio%3bPersist Security Info=False%3bUser ID=benjohs%3bPassword=Alebri123%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
